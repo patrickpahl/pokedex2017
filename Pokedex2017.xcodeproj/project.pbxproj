@@ -12,6 +12,8 @@
 		790C30D71EB6946C00220FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790C30D61EB6946C00220FA5 /* Assets.xcassets */; };
 		790C30DA1EB6946C00220FA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790C30D81EB6946C00220FA5 /* LaunchScreen.storyboard */; };
 		790C30E21EB696E400220FA5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790C30E11EB696E400220FA5 /* MainViewController.swift */; };
+		790C30E41EB6997E00220FA5 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790C30E31EB6997E00220FA5 /* Pokemon.swift */; };
+		790C30E61EB6998D00220FA5 /* PokemonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790C30E51EB6998D00220FA5 /* PokemonController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		790C30D91EB6946C00220FA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		790C30DB1EB6946C00220FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		790C30E11EB696E400220FA5 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		790C30E31EB6997E00220FA5 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		790C30E51EB6998D00220FA5 /* PokemonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				790C30CF1EB6946C00220FA5 /* AppDelegate.swift */,
+				790C30E31EB6997E00220FA5 /* Pokemon.swift */,
+				790C30E51EB6998D00220FA5 /* PokemonController.swift */,
 				790C30D31EB6946C00220FA5 /* Main.storyboard */,
 				790C30E11EB696E400220FA5 /* MainViewController.swift */,
 				790C30D61EB6946C00220FA5 /* Assets.xcassets */,
@@ -139,6 +145,8 @@
 			files = (
 				790C30D01EB6946C00220FA5 /* AppDelegate.swift in Sources */,
 				790C30E21EB696E400220FA5 /* MainViewController.swift in Sources */,
+				790C30E41EB6997E00220FA5 /* Pokemon.swift in Sources */,
+				790C30E61EB6998D00220FA5 /* PokemonController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
