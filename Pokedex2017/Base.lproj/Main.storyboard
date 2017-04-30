@@ -103,6 +103,13 @@
                             <constraint firstItem="86a-rs-isz" firstAttribute="leading" secondItem="ACK-dd-u7s" secondAttribute="leadingMargin" constant="10" id="wLc-wb-774"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="moveLabel" destination="XPL-tw-1Q9" id="Fag-9m-nuH"/>
+                        <outlet property="nameLabel" destination="E5j-FB-yXq" id="4Oh-mq-cnS"/>
+                        <outlet property="pokemonImageView" destination="5fp-hV-uvW" id="3da-8J-6uN"/>
+                        <outlet property="searchBar" destination="iDC-vU-F5l" id="at8-kW-I3Q"/>
+                        <outlet property="typeLabel" destination="60f-S9-2NP" id="dhK-sV-GHX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Etu-5U-R8J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

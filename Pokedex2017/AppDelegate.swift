@@ -11,14 +11,7 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
-
-    //http://jsonviewer.stack.hu/
-
-    //http://pokeapi.co/api/v2/pokemon/1/
-    
-    //http://pokeapi.co/
-    
+    var window: UIWindow?    
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
